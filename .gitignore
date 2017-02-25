@@ -1,0 +1,8 @@
+*.sdf
+*.opensdf
+*.opensdf
+.vs
+Debug
+Debug_libwolfssl
+Debug_wolfCryptTest
+*.filters

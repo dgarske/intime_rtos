@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|INtime">
+      <Configuration>Debug</Configuration>
+      <Platform>INtime</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|INtime">
+      <Configuration>Release</Configuration>
+      <Platform>INtime</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libwolfssl.c" />
+    <ClCompile Include="wolfssl\src\crl.c" />
+    <ClCompile Include="wolfssl\src\internal.c" />
+    <ClCompile Include="wolfssl\src\io.c" />
+    <ClCompile Include="wolfssl\src\keys.c" />
+    <ClCompile Include="wolfssl\src\ocsp.c" />
+    <ClCompile Include="wolfssl\src\sniffer.c" />
+    <ClCompile Include="wolfssl\src\ssl.c" />
+    <ClCompile Include="wolfssl\src\tls.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\aes.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\arc4.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\asm.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\asn.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\async.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\blake2b.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\camellia.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\chacha.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\chacha20_poly1305.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\cmac.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\coding.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\compress.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\curve25519.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\des3.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\dh.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\dsa.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\ecc.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\ecc_fp.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\ed25519.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\error.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\fe_low_mem.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\fe_operations.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\ge_low_mem.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\ge_operations.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\hash.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\hc128.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\hmac.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\idea.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\integer.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\logging.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\md2.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\md4.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\md5.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\memory.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\pkcs12.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\pkcs7.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\poly1305.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\pwdbased.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\rabbit.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\random.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\ripemd.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\rsa.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\sha.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\sha256.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\sha512.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\signature.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\srp.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\tfm.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\wc_encrypt.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\wc_port.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\wolfevent.c" />
+    <ClCompile Include="wolfssl\wolfcrypt\src\wolfmath.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user_settings.h" />
+    <ClInclude Include="wolfssl\wolfssl\callbacks.h" />
+    <ClInclude Include="wolfssl\wolfssl\certs_test.h" />
+    <ClInclude Include="wolfssl\wolfssl\crl.h" />
+    <ClInclude Include="wolfssl\wolfssl\error-ssl.h" />
+    <ClInclude Include="wolfssl\wolfssl\internal.h" />
+    <ClInclude Include="wolfssl\wolfssl\ocsp.h" />
+    <ClInclude Include="wolfssl\wolfssl\options.h" />
+    <ClInclude Include="wolfssl\wolfssl\sniffer.h" />
+    <ClInclude Include="wolfssl\wolfssl\sniffer_error.h" />
+    <ClInclude Include="wolfssl\wolfssl\ssl.h" />
+    <ClInclude Include="wolfssl\wolfssl\test.h" />
+    <ClInclude Include="wolfssl\wolfssl\version.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\aes.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\arc4.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\asn.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\asn_public.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\async.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\blake2-impl.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\blake2-int.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\blake2.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\camellia.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\chacha.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\chacha20_poly1305.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\cmac.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\coding.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\compress.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\curve25519.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\des3.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\dh.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\dsa.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\ecc.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\ed25519.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\error-crypt.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\fe_operations.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\fips_test.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\ge_operations.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\hash.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\hc128.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\hmac.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\idea.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\integer.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\logging.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\md2.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\md4.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\md5.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\memory.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\mem_track.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\misc.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\mpi_class.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\mpi_superclass.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\pkcs12.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\pkcs7.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\poly1305.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\pwdbased.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\rabbit.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\random.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\ripemd.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\rsa.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\settings.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\sha.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\sha256.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\sha512.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\signature.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\srp.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\tfm.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\types.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\visibility.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\wc_encrypt.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\wc_port.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\wolfevent.h" />
+    <ClInclude Include="wolfssl\wolfssl\wolfcrypt\wolfmath.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1731767D-573F-45C9-A466-191DA0D180CF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|INtime'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">
+    <IntDir>$(Configuration)_$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">
+    <IntDir>$(Configuration)_$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|INtime'">
+    <ClCompile>
+    </ClCompile>
+    <Link>
+      <Version>21076.20052</Version>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>rt.lib;pcibus.lib;netlib.lib;clib.lib;vshelper.lib</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)$(Configuration)\\libwolfssl.rsl</OutputFile>
+    </Link>
+    <ClCompile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <PreprocessorDefinitions>_USRDLL;WOLFSSL_DLL;BUILDING_WOLFSSL;WOLFSSL_USER_SETTINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)wolfssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|INtime'">
+    <ClCompile>
+    </ClCompile>
+    <Link>
+      <Version>21076.20052</Version>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>rt.lib;pcibus.lib;netlib.lib;clib.lib;vshelper.lib</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)$(Configuration)\\libwolfssl.rsl</OutputFile>
+    </Link>
+    <ClCompile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <PreprocessorDefinitions>_USRDLL;WOLFSSL_DLL;BUILDING_WOLFSSL;WOLFSSL_USER_SETTINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)wolfssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

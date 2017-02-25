@@ -1,0 +1,121 @@
+#pragma once
+
+#define INTIME_RTOS
+#define INTIME_RTOS_MUTEX_MAX 10
+
+#define HAVE_THREAD_LS
+
+#define NO_MAIN_DRIVER
+#define NO_WRITEV
+#define NO_WOLFSSL_DIR
+//#define NO_FILESYSTEM
+
+#define WOLFSSL_HAVE_MIN
+#define USE_CERT_BUFFERS_2048
+
+#define NO_RC4
+#define NO_HC128
+#define NO_RABBIT
+#define NO_MD4
+
+//#define NO_DSA
+//#define NO_DH
+//#define NO_DES3
+//#define NO_OLD_TLS
+//#define NO_PSK
+//#define NO_PWDBASED
+//#define NO_WOLFSSL_SERVER
+//#define NO_WOLFSSL_CLIENT
+
+#define USE_FAST_MATH
+#define ALT_ECC_SIZE
+#define FP_MAX_BITS     4096 /* 2048-bit */
+
+#define HAVE_ECC
+#define ECC_SHAMIR
+#define WOLFSSL_CUSTOM_CURVES
+#define ECC_USER_CURVES
+//#define HAVE_ECC192
+//#define HAVE_ECC224
+//#define NO_ECC256
+//#define HAVE_ECC384
+//#define HAVE_ECC521
+#define FP_ECC
+#define HAVE_ECC_ENCRYPT
+
+#define TFM_TIMING_RESISTANT
+#define ECC_TIMING_RESISTANT
+#define WC_RSA_BLINDING
+
+#define WOLFSSL_BASE64_ENCODE
+#define HAVE_COMP_KEY
+#define KEEP_PEER_CERT
+
+#define HAVE_AESGCM
+#define WOLFSSL_AES_COUNTER
+#define HAVE_AESCCM
+
+#define HAVE_CHACHA
+#define HAVE_POLY1305
+#define HAVE_ONE_TIME_AUTH
+
+#define HAVE_CURVE25519
+#define HAVE_ED25519
+#define CURVED25519_SMALL
+
+#define WOLFSSL_SHA512
+#define WOLFSSL_SHA384
+#define WOLFSSL_SHA224
+
+#define HAVE_HKDF
+#define WOLFSSL_BASE64_ENCODE
+#define WOLFSSL_CMAC
+
+#define WOLFSSL_KEY_GEN
+#define WOLFSSL_CERT_GEN
+#define WOLFSSL_CERT_REQ
+#define WOLFSSL_CERT_EXT
+
+#define HAVE_PK_CALLBACKS
+
+#define HAVE_OCSP
+#define HAVE_CERTIFICATE_STATUS_REQUEST
+#define HAVE_CERTIFICATE_STATUS_REQUEST_V2
+#define HAVE_CRL
+
+#define HAVE_ALPN
+#define HAVE_SNI
+#define HAVE_TLS_EXTENSIONS
+#define HAVE_SUPPORTED_CURVES
+#define HAVE_MAX_FRAGMENT
+#define HAVE_TRUNCATED_HMAC
+
+#define SESSION_CERTS
+#define HAVE_SESSION_TICKET
+//#define PERSIST_CERT_CACHE
+//#define PERSIST_SESSION_CACHE
+
+#define HAVE_EXTENDED_MASTER
+
+#define WOLFCRYPT_HAVE_SRP
+#define WOLFSSL_HAVE_CERT_SERVICE
+
+#define HAVE_PKCS7
+#define HAVE_AES_KEYWRAP
+#define WOLFSSL_AES_DIRECT
+#define HAVE_X963_KDF
+#define WOLFSSL_HAVE_WOLFSCEP
+#define WOLFSSL_ALWAYS_KEEP_SNI
+#define WOLFSSL_ALWAYS_VERIFY_CB
+
+#define WOLFSSL_SEP
+#define ATOMIC_USER
+
+//#define WOLFSSL_DTLS
+//#define OPENSSL_EXTRA
+
+//#define WOLFSSL_DER_LOAD
+//#define WOLFSSL_DES_ECB
+//#define HAVE_CAMELLIA
+//#define HAVE_NULL_CIPHER
+//#define WOLFSSL_RIPEMD
